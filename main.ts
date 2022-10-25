@@ -11,7 +11,7 @@ radio.onReceivedValue(function (name, value) {
         pins.digitalWritePin(DigitalPin.P0, 1)
     }
 })
-radio.setGroup(408)
+radio.setGroup(1)
 basic.showLeds(`
     # . # . #
     # . # . .
